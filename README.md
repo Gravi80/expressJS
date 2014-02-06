@@ -114,3 +114,14 @@ http.createServer(app).listen(config.port, function(){
 8). node app.js prod 
 
 
+Tests
+=====	
+
+npm install -g jasmine-node
+
+create a tests directory which will hold our tests
+
+The spec files must end with .spec.js, 
+so the file should be called config.spec.js. 
+
+jasmine-node --verbose ./tests => Run Tests

@@ -8,7 +8,7 @@ var config = {
         port: 3001
     },
     prod: {
-        mode: 'production',
+        mode: 'prod',
         port: 3002
     }
 }

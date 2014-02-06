@@ -1,7 +1,3 @@
-expressJS
-=========
-mkdir hello-world
-
 Setup
 =====
 There are two ways to setup Express. 
@@ -93,5 +89,26 @@ Steps i followed
 7).node app      => starts the app
 
 
+Configuration
+--------------
+site should be deployed to three different places - a local server, a staging server and a production server.
+
+As you know, every node script is run as a console program. 
+So, we can easily send command line arguments which will define the current environment. 
+
+I wrapped that part in a separate module /config/index.js
+
+read about modules in ModulesReadMe.txt
 
 
+Now  add 
+
+var config = require('./config')();
+
+http.createServer(app).listen(config.port, function(){
+    console.log('Express server listening on port ' + config.port);
+});
+
+
+
+8). node app.js prod 

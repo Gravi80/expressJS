@@ -1,14 +1,14 @@
 var config = {
-    local: {
+    dev: {
         mode: 'dev',
         port: 3000
     },
-    staging: {
+    qa: {
         mode: 'qa',
         port: 3001
     },
-    production: {
-        mode: 'prod',
+    prod: {
+        mode: 'production',
         port: 3002
     }
 }

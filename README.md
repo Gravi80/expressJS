@@ -88,7 +88,7 @@ Steps i followed
 
 5).cd demoApp
 
-6).npm install   => downloads all the dependencies provided in package.json
+6).npm install   => downloads all the dependencies provided in package.json , and then a node_modules folder will pop up.
 
 7).node app      => starts the app
 

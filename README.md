@@ -89,6 +89,11 @@ Steps i followed
 7).node app      => starts the app
 
 
+npm install -g nodemon
+
+nodemon app.js => will automatically reflect ur changes
+
+
 Configuration
 --------------
 site should be deployed to three different places - a local server, a staging server and a production server.
